@@ -1,5 +1,6 @@
 # is-subnet
 
+[![](https://img.shields.io/npm/v/is-subnet.svg?style=flat)](https://www.npmjs.org/package/is-subnet) [![](https://img.shields.io/npm/dm/is-subnet.svg)](https://www.npmjs.org/package/is-subnet)
 
 > Check if a string is an IP subnet in CIDR notation. Specifically, validating that the network address matches the given mask.
 
