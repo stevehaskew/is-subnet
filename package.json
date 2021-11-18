@@ -1,0 +1,45 @@
+{
+  "name": "is-subnet",
+  "version": "1.0.0",
+  "description": "Check if a string is an IP subnet in CIDR notation",
+  "author": "Steve Haskew <steve@boaz.org.uk>",
+  "contributors": [],
+  "repository": "stevehaskew/is-subnet",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "cidr",
+    "regex",
+    "notation",
+    "cidr notation",
+    "prefix",
+    "prefixes",
+    "ip",
+    "ip address",
+    "network",
+    "subnet"
+  ],
+  "dependencies": {
+    "is-cidr": "^4.0.0",
+    "pad-ipv6": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "7.10.0",
+    "jest": "26.4.2",
+    "updates": "11.1.5",
+    "versions": "8.4.3"
+  },
+  "jest": {
+    "verbose": false,
+    "testTimeout": 10000
+  }
+}
